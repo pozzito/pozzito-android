@@ -1,7 +1,7 @@
 ##PozzitoSDK for Android##
-[https://pozzito.com/](https://pozzito.com/)
 
-Pozzito SDK Android allows quick integration of Pozzito customer support in your app.
+
+Pozzito SDK Android allows quick integration of Pozzito customer support in your app. For more information visit [Pozzito website](https://pozzito.com/)
 
 ### Sample app ###
 This app shows how to use Pozzito SDK. For more detailed explanation, please read Usage section.
