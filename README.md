@@ -1,4 +1,4 @@
-##PozzitoSDK for Android##
+##PozzitoSDK for Android
 
 
 Pozzito SDK Android allows quick integration of Pozzito customer support in your app. For more information visit [Pozzito website](https://pozzito.com/)
@@ -22,8 +22,8 @@ Add dependency in your applications build.gradle:
 
 
     dependencies {
-    	compile 'com.pozzito.android:pozzito-sdk:1.0.0'
-	    compile 'com.pozzito.android:pozzito-sdk-api:1.0.0'
+        compile 'com.pozzito.android:pozzito-sdk:1.1.0'
+        compile 'com.pozzito.android:pozzito-sdk-api:1.1.0'
     }
 
 ### Permission ###
