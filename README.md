@@ -22,8 +22,8 @@ Add dependency in your applications build.gradle:
 
 
     dependencies {
-        compile 'com.pozzito.android:pozzito-sdk:1.1.0'
-        compile 'com.pozzito.android:pozzito-sdk-api:1.1.0'
+        compile 'com.pozzito.android:pozzito-sdk:1.4.0'
+        compile 'com.pozzito.android:pozzito-sdk-api:1.4.0'
     }
 
 ### Permission ###
@@ -43,15 +43,20 @@ To start using Pozzito SDK in your application, initialize Pozzito SDK in your o
 
 First parameter is application context. Next two parameters are API KEY and APP ID parameters. Last parameter is boolean which enables or disables logging.
 
-When the information about your user becomes available to you (for example when your user logs in into your app), you can provide those informations with following method:
+When the information about your user becomes available to you (for example when your user logs in into your app), you can provide those information with following method:
 
     UserParams userParams = new UserParams.Builder()
     	.firstName("First Name")
     	.lastName("Last Name")
     	.email("mail@maildomain.com")
+    	.organiztion("Organization example")
 		.build();
 
     PozzitoSdk.getInstance().createUser(userParams);
+
+You are also able to pass external id as a parameter while creating new user.
+
+    PozzitoSdk.getInstance().createUser(userParams, "externalId");
 
 If you don't know any information about your user (for example, if your app do not require login), you can create anonymous user:
 
