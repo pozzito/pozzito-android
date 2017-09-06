@@ -24,7 +24,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.pozzito.android:pozzito-sdk:1.1.0'
-    compile 'com.pozzito.android:pozzito-sdk-api:1.1.0'
+    compile 'com.pozzito.android:pozzito-sdk:1.4.0'
+    compile 'com.pozzito.android:pozzito-sdk-api:1.4.0'
     testCompile 'junit:junit:4.12'
 }
